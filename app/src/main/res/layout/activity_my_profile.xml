@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorYellow"
+        android:id="@+id/toolbar_prf"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:elevation="4dp"
+        />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Contact Info"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorAccent"
+                        android:layout_marginBottom="10dp"/>
+
+                    <TextView
+                        android:id="@+id/sample_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:: "
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/sample_mobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Phone no:: "
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:id="@+id/img_edit1"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/ic_edit"
+                        android:layout_gravity="end"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Address Info"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sample_house"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="House:: "
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/sample_road"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Road:: "
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/sample_sector"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sector/Block:: "
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/sample_area"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Area:: "
+                        android:textSize="15sp" />
+
+
+                    <ImageView
+                        android:id="@+id/img_edit12"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/ic_edit"
+                        android:layout_gravity="end"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</LinearLayout>
